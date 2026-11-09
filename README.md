@@ -6,7 +6,7 @@ A Windows app for World of Warcraft Mythic+ keys. It reads the game's combat log
 - a ready check when the party zones in: who's missing a flask, food or a party buff;
 - a review after each key: each player against their spec's top runs on Warcraft Logs, with a damage and healing graph.
 
-This repo holds only the installers; the code isn't public.
+This repo holds only the installers. The source code is public at [steezy2/wow-live-app](https://github.com/steezy2/wow-live-app) (MIT), and its releases are built there on GitHub Actions with a build attestation: `gh attestation verify WoW.Live.Setup.exe -R steezy2/wow-live-app` checks an installer downloaded from there.
 
 ## Install
 
